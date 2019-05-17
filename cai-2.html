@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Number guessing game v1</title>    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="guess-game.css">
+    <!-- import the webpage's javascript file -->
+    <script src="guess-game-1.js" defer></script>
+  </head>  
+  <body>
+    <h1>Number guessing game</h1>
+
+    <p>Guess a number between 1 and 10 (incl.)</p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="computerNumber"></p>
+      <p class="feedback"></p> 
+    </div>
+
+  </body>
+</html>
